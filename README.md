@@ -14,7 +14,7 @@ A WooCommerce plugin that builds the **product feeds** for **Google Merchant Cen
 - **Prices with tax as in the shop**, sale price, availability, additional images, brand, GTIN, MPN, Google product category and a product type built from the deepest category path.
 - **Filters**: product types (simple, variable, external), categories, a field or attribute to exclude by (for example a "coming soon" flag) and out-of-stock handling.
 - **Variable products** are exported as a single item at the price of the cheapest variation.
-- Google gets `identifier_exists = no` when a product has neither GTIN nor MPN. Items without an image or with a zero price are left out.
+- Google gets `identifier_exists = no` when a product has neither GTIN nor MPN. Items without an image are left out, and so are items with a zero price unless you enable the option for free products.
 - Uses the native WooCommerce brands and GTIN field when available.
 - Settings page with the feed URLs, the date and size of the last build and a *Generate now* button. Italian translation included.
 
