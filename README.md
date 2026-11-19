@@ -4,7 +4,7 @@ A WooCommerce plugin that builds the **product feeds** for **Google Merchant Cen
 
 ![Product Feed settings page in WooCommerce: channels, product types and exclusions](images/product-feed-settings.png)
 
-**Compatibility:** WordPress 6.0+ · WooCommerce 8.0+ · PHP 8.1 – 8.4 · HPOS · Block-based checkout
+**Compatibility:** WordPress 6.0+ · WooCommerce 8.0+ · PHP 8.1 – 8.5 · HPOS · Block-based checkout
 **License:** commercial · coming soon
 
 ## Features
@@ -23,7 +23,7 @@ A WooCommerce plugin that builds the **product feeds** for **Google Merchant Cen
 ## Requirements
 
 - WordPress 6.0 or newer
-- PHP 8.1 – 8.4
+- PHP 8.1 – 8.5
 - WooCommerce 8.0 or newer
 - Working WP-Cron (or a system cron calling `wp-cron.php`)
 
